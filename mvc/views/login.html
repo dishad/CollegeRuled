@@ -1,0 +1,20 @@
+<include src='layouts/main'>
+  <arg pageContent>
+    <article class='loginform'>
+      <form name='login' action='index_submit' method='get' accept-charset='utf-8'>
+        <ul>
+          <li>
+            <label for='usermail'>Email</label>
+            <input type='email' name='usermail' placeholder='yourname@email.com' required>
+          </li>
+          <li>
+            <label for='password'>Password</label>
+            <input type='password' name='password' placeholder='password' required></li>
+          <li>
+          <input type='submit' value='Login'></li>
+        </ul>
+      </form>
+    </article>
+    <link rel='stylesheet' href='/css/login.css'>
+  </arg>
+</include>
