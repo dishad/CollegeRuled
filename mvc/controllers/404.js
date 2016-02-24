@@ -7,5 +7,6 @@ module.exports = function(app) {
     model.appVersion = app.get('package').version;
     res.status(404);
     res.render('404', model);
+//    res.redirect('https://github.com/404.html');
   });
 };

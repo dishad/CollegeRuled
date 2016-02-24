@@ -1,13 +1,14 @@
 <include src='layouts/main'>
   <arg pageContent>
     <article>
-      <header>
-        <h1>Not Found</h1>
-      </header>
-      <p>The requested URL {url} was not found on this server.</p>
-      <footer>
-        <address>{mainDomain} {appVersion}</address>
-      </footer>
+      <p id='okay'>You just 404'ed, Bruh </p> <br>
+      <p>The requested URL '{url}' was not found on this server.</p>
+      <address>{mainDomain} {appVersion}</address>
+<!--
+      <p>The requested URL '{url}' was not found on this server.</p> <br>
+      <address>{mainDomain} {appVersion}</address>
+-->
     </article>
+    <link rel='stylesheet' href='/css/404.css'>
   </arg>
 </include>
